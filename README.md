@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/convergence-human-technology/github-pages-auth0-free-members-area/raw/main/cover-free-site-members-EN.png" alt="Aether Suite : 9 open-source Android apps to replace every default app on your phone." width="100%" height="100%">
+  <img src="https://github.com/convergence-human-technology/AetherSuite/raw/main/cover-free-site-members-EN.png" alt="Aether Suite : 9 open-source Android apps to replace every default app on your phone." width="100%" height="100%">
 </p>
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
