@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.AetherFiles" parent="Theme.Material3.DayNight.NoActionBar"/>
+    <style name="Theme.AetherFiles.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#0D0C12</item>
+        <item name="postSplashScreenTheme">@style/Theme.AetherFiles</item>
+    </style>
+</resources>
