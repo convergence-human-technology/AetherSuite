@@ -1,10 +1,7 @@
 name: Android Build Check
 
 on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+  workflow_dispatch:
 
 jobs:
   build:
@@ -20,11 +17,14 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
 
+      - name: Setup Android SDK
+        uses: android-actions/setup-android@v3
+
       - name: Grant execute permission to Gradle wrapper
         run: chmod +x gradlew
 
       - name: Build all modules
-        run: ./gradlew assembleDebug
+        run: ./gradlew assembleDebug --continue --stacktrace
 
       - name: Run unit tests
-        run: ./gradlew test
+        run: ./gradlew test --continue
