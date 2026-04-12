@@ -1,3 +1,5 @@
+![Convergence Cover](https://raw.githubusercontent.com/Convergence-Human-And-Technology/Aether-Suite/main/cover_Aether_Suite_real_HT.jpg)
+
 <p align="center">
 <img src="https://raw.githubusercontent.com/convergence-human-technology/site/main/img/Aether-Suite-cover-05t.png" alt="Aether Suite : 9 applications Android open source par Convergence Human and Technology" width="100%" height="auto" />
 </p>
